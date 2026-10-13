@@ -6,11 +6,11 @@ function Body() {
         <p className="Title"> --- AI-native software studio · Delhi NCR</p>
       </div>
       <div className="Container">
-        <h1 className="box">
+        <div className="box">
           <span>
-            Software & AI <br />
-            development <br />
-            company, <br />
+            <p>Software & AI</p>
+            <p>development</p>
+            <p>company,</p>
             <em>
               built to grow <br /> your business.
             </em>
@@ -21,20 +21,20 @@ function Body() {
             build for outcomes, not just deliverables — signups, checkout
             completion, support load. Whatever moves your numbers.
           </h6>
-        </h1>
+        </div>
 
-        <h1 className="box BoxContainer">
-          <div>
-            <div>inqmise scope -- client = new</div>
-            <div>Requirements locked — stage 1 of 7</div>
-            <div>inqmise build --web --mobile --cloud</div>
-            <div>Shipped in one sprint, not three</div>
-            <div>inqmise test --coverage=full</div>
-            <div>QA passed — stage 6 of 7</div>
-            <div>inqmise deploy --ai=agentic-workflow</div>
-            <div>Live in production</div>
+        <div className="box ">
+          <div className="BoxContainer">
+            <div className="question">inqmise scope -- client = new</div>
+            <div className="answer">Requirements locked — stage 1 of 7</div>
+            <div className="question">inqmise build --web --mobile --cloud</div>
+            <div className="answer">Shipped in one sprint, not three</div>
+            <div className="question">inqmise test --coverage=full</div>
+            <div className="answer">QA passed — stage 6 of 7</div>
+            <div className="question">inqmise deploy --ai=agentic-workflow</div>
+            <div className="answer">Live in production</div>
           </div>
-        </h1>
+        </div>
       </div>
     </>
   );

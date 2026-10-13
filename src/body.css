@@ -34,7 +34,7 @@
   color: #3ea959;
   font-style: italic;
 }
-.BoxContainer  {
+.BoxContainer {
   margin: 64px 83px 0px;
   font-size: 20px;
   height: 83%;
@@ -42,8 +42,18 @@
   background-color: #103828;
   color: white;
   border-radius: 50px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-content: start;
   letter-spacing: -0.5px;
-  padding-top: 50px;
+  padding: 20px;
+}
+.question {
+  display: block;
+  color: rgb(245, 248, 233);
+  text-align: start;
+}
+.answer {
+  display: block;
+  color: rgb(169, 212, 171);
+  text-align: start;
 }
