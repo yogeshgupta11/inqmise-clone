@@ -15,7 +15,7 @@ function Header() {
         <li>Services</li>
         <li>Case studies</li>
         <li>Resources</li>
-        <Button />
+        <Button text="Contact Us" />
       </ul>
     </header>
   );

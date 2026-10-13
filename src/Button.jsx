@@ -1,4 +1,4 @@
-function Button() {
-  return <button className="button">Contact Us</button>;
+function Button(props) {
+  return <button className="button">{props.text}</button>;
 }
 export default Button;
