@@ -1,22 +1,33 @@
 import "./header.css";
-import Button from "./button";
 import "./button.css";
 
 function Header() {
   return (
     <header className="header">
-      <div className="logo">
-        <img className="img" src="logo-white-C-YakDwu.svg" alt="logo" />
-      </div>
-      <ul className="Nav">
-        <li>About</li>
-        <li>AI Solutions</li>
-        <li>Product</li>
-        <li>Services</li>
-        <li>Case studies</li>
-        <li>Resources</li>
-        <Button text="Contact Us" />
-      </ul>
+      <nav className="navbar navbar-expand-lg nav-bg">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            <img
+              src="logo-white-C-YakDwu.svg"
+              alt="Logo"
+              width="300"
+              height="40"
+              className="d-inline-block align-text-top"
+            />
+          </a>
+          <ul className="nav">
+            <li className="nav-link ">About</li>
+            <li className="nav-link ">AI Solutions</li>
+            <li className="nav-link ">Product</li>
+            <li className="nav-link ">Services</li>
+            <li className="nav-link ">Case studies</li>
+            <li className="nav-link ">Resources</li>
+          </ul>
+          <button type="button" className=" style btn-solid theme-inverse">
+            Contact Us
+          </button>
+        </div>
+      </nav>
     </header>
   );
 }

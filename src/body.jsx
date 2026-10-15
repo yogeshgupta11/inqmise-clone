@@ -1,5 +1,4 @@
 import "./body.css";
-import Button from "./button";
 function Body() {
   return (
     <>
@@ -22,7 +21,9 @@ function Body() {
             build for outcomes, not just deliverables — signups, checkout
             completion, support load. Whatever moves your numbers.
           </h6>
-          <Button text="Start your project" />
+          <button type="button" className="style btn-solid theme-inverse">
+            Start your project
+          </button>
         </div>
 
         <div className="box ">
