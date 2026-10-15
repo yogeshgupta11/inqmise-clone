@@ -30,3 +30,10 @@ font-family: "DM Sans", sans-serif;
   padding: 20px;
   margin: 0.5px;
 } */
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+.nav {
+  margin-left: 112px;
+}
