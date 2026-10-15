@@ -107,3 +107,18 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
+
+.header {
+  font-family: "DM Sans", sans-serif;
+}
+.nav-bg {
+  background-color: #103828;
+}
+.nav-link {
+  color: white;
+}
+.nav {
+  gap: 30px;
+  justify-content: end;
+  color-scheme: dark;
+}
