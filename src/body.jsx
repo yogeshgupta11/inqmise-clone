@@ -3,18 +3,17 @@ function Body() {
   return (
     <>
       <div className="main">
-        <p className="Title"> --- AI-native software studio · Delhi NCR</p>
-      </div>
-      <div className="Container">
+        {/* <p className="Title"> --- AI-NATIVE SOFTWARE STUDIO · Delhi NCR</p> */}
+      
+      <div className="container Container grid text-left grid-cols-2">
         <div className="box">
-          <span>
-            <p>Software & AI</p>
-            <p>development</p>
-            <p>company,</p>
+          <p className="">
+            Software & AI development company, <br />
             <em>
               built to grow <br /> your business.
             </em>
-          </span>
+          </p>
+
           <h6 className="box1">
             A software development company in Delhi NCR building custom
             software, apps and AI for businesses in India, the US and the UK. We
@@ -27,17 +26,22 @@ function Body() {
         </div>
 
         <div className="box ">
-          <div className="BoxContainer">
-            <div className="question">inqmise scope -- client = new</div>
-            <div className="answer">Requirements locked — stage 1 of 7</div>
-            <div className="question">inqmise build --web --mobile --cloud</div>
-            <div className="answer">Shipped in one sprint, not three</div>
-            <div className="question">inqmise test --coverage=full</div>
-            <div className="answer">QA passed — stage 6 of 7</div>
-            <div className="question">inqmise deploy --ai=agentic-workflow</div>
-            <div className="answer">Live in production</div>
+          <div className="BoxContainer ">
+            <p className="answer">Requirements locked — stage 1 of 7</p>
+            <p className="question ">inqmise scope -- client = new</p>
+            <p className="question">inqmise build --web --mobile --cloud</p>
+            <p className="answer">Shipped in one sprint, not three</p>
+            <p className="question">inqmise test --coverage=full</p>
+            <p className="answer">QA passed — stage 6 of 7</p>
+            <p className="question">inqmise deploy --ai=agentic-workflow</p>
+            <p className="answer">Live in production</p>
+            <p className="answer bottom"></p>
+            <p className="answer">
+              Built for growth · not just code · Delhi NCRF
+            </p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
