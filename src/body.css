@@ -57,3 +57,60 @@
   color: rgb(169, 212, 171);
   text-align: start;
 } */
+
+.main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 20px;
+  color: rgb(55, 123, 72);
+}
+.Title {
+  margin: 27px 73px 0px;
+  font-size: 11px;
+  word-spacing: 2px;
+}
+.box {
+  font-weight: 700;
+  font-size: 75px;
+}
+
+.BoxContainer {
+  /* margin: 65px 98px 0px; */
+  font-size: 14px;
+  height: 53%;
+  width: 468px;
+  background-color: #103828;
+  color: white;
+  border-radius: 50px;
+  display: grid;
+  justify-content: start;
+  letter-spacing: -0.5px;
+  padding: 59px 26px;
+  transform: rotate(1.5deg);
+}
+.box em {
+  color: #3ea959;
+  font-style: italic;
+}
+.box1 {
+  margin: 0px 99px 0px;
+  font-size: 18px;
+  font-weight: initial;
+  color: rgb(94 90 90);
+}
+.question {
+  display: block;
+  color: rgb(245, 248, 233);
+  text-align: start;
+}
+.answer {
+  display: block;
+  color: rgb(169, 212, 171);
+  text-align: start;
+}
+.bottom {
+  display: flex;
+  align-items: end;
+}
+
