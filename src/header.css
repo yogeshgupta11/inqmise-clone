@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.NAV {
+  background-color: #103828;
+  color: white;
+  height: 80px;
+}
+
+.LOGO {
+  height: 32px;
+  margin: 24px 60px;
+}
+.ULLIST {
+  list-style: none;
+  margin: 0px 0px 0px 200px;
+}
+
+.BUTTON {
+  padding: 10px;
+  margin: 0px 60px;
+  font-family: serif;
+  transition: transform 0.3s ease-in-out;
+}
+.BUTTON:hover {
+  transform: scale(1.05);
+}

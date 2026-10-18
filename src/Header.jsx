@@ -2,20 +2,24 @@ import "./header.css";
 
 function Header() {
   return (
-    <header className="header">
-      <nav className="NAV">
-        <div className="logo">
-          <img className="img" src="logo-white-C-YakDwu.svg" alt="logo" />
+    <header className="header-yg">
+      <nav className="NAV d-flex justify-content-between align-items-center">
+        <div className="parentLOGO">
+          <img
+            className=" LOGO img-fluid"
+            src="logo-white-C-YakDwu.svg"
+            alt="logo"
+          />
         </div>
-        <ul className="Nav">
-          <li>About</li>
-          <li>AI Solutions</li>
-          <li>Product</li>
-          <li>Services</li>
-          <li>Case studies</li>
-          <li>Resources</li>
-          <button>Contact Us</button>
+        <ul className="ULLIST d-flex gap-12 ">
+          <li className=""> About</li>
+          <li className="">AI Solutions </li>
+          <li className="">Product </li>
+          <li className="">Services </li>
+          <li className="">Case studies</li>
+          <li className="">Resources</li>
         </ul>
+        <button className="BUTTON btn-solid theme-inverse">Contact Us</button>
       </nav>
     </header>
   );
