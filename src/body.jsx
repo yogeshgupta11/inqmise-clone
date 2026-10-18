@@ -34,6 +34,27 @@ function Body() {
           </div>
         </div>
       </div>
+      <section className="SECTION ">
+        <div className="PARENTDIV grid grid-cols-4">
+          <h1 className="CHILD CHILD1">
+            11+
+            <br />
+            <p className="PARAGRAPH">core service offerd</p>
+          </h1>
+          <h1 className="CHILD CHILD3">
+            5 <br />
+            <p className="PARAGRAPH">Dedicated AI services</p>
+          </h1>
+          <h1 className="CHILD CHILD2">
+            7 <br />
+            <p className="PARAGRAPH">Stage delivery process</p>
+          </h1>
+          <h1 className="CHILD CHILD4">
+            MSME <br />
+            <p className="PARAGRAPH">Registered IT company</p>
+          </h1>
+        </div>
+      </section>
     </>
   );
 }

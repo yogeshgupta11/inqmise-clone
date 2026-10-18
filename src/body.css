@@ -62,3 +62,24 @@
 .ANSWER {
   color: rgb(169, 212, 171);
 }
+.SECTION {
+  background: #103828;
+  height: 200px;
+}
+.PARENTDIV {
+  margin: 30px 0px 0px;
+}
+.CHILD {
+  height: 100px;
+  color: white;
+  background-color: #103828;  
+  font-weight: 700;
+  font-family: Syne, sans-serif;
+  letter-spacing: 5px;
+  font-size: 65px;
+}
+.PARAGRAPH {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #9bc9a1;
+}
