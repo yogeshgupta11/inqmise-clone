@@ -9,7 +9,7 @@ function Body() {
             Software & AI development company, <br />
             <em>built to grow your business.</em>
           </h1>
-          <p className="PARAGRAPH">
+          <p className="HEADPARAGRAPH">
             A software development company in Delhi NCR building custom
             software, apps and AI for businesses in India, the US and the UK. We
             build for outcomes, not just deliverables — signups, checkout

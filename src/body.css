@@ -25,11 +25,11 @@
   color: #3ea959;
   font-family: Georgia, serif;
 }
-.PARAGRAPH {
-  margin: 20px 0px;
+.HEADPARAGRAPH {
+  margin: 5px 0px;
   font-size: 18px;
   font-family: ui-monospace;
-  color: #6b6375;
+  color: #607169;
 }
 .BODYBUTTON {
   padding: 10px;
@@ -67,12 +67,12 @@
   height: 200px;
 }
 .PARENTDIV {
-  margin: 30px 0px 0px;
+  margin: 20px 0px 0px;
 }
 .CHILD {
   height: 100px;
   color: white;
-  background-color: #103828;  
+  background-color: #103828;
   font-weight: 700;
   font-family: Syne, sans-serif;
   letter-spacing: 5px;
