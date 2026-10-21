@@ -12,12 +12,12 @@ function Header() {
           />
         </div>
         <ul className="ULLIST d-flex gap-12 ">
-          <li className=""> About</li>
-          <li className="">AI Solutions </li>
-          <li className="">Product </li>
-          <li className="">Services </li>
-          <li className="">Case studies</li>
-          <li className="">Resources</li>
+          <li className="nav-link"> About</li>
+          <li className="nav-link">AI Solutions </li>
+          <li className="nav-link">Product </li>
+          <li className="nav-link">Services </li>
+          <li className="nav-link">Case studies</li>
+          <li className="nav-link">Resources</li>
         </ul>
         <button className="BUTTON btn-solid theme-inverse">Contact Us</button>
       </nav>

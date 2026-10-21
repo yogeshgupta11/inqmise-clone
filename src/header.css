@@ -27,3 +27,6 @@
 .BUTTON:hover {
   transform: scale(1.05);
 }
+.nav-link:hover{
+  color: #55c66a;
+}
