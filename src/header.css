@@ -27,6 +27,7 @@
 .BUTTON:hover {
   transform: scale(1.05);
 }
-.nav-link:hover{
+.NAV-LINK:hover {
   color: #55c66a;
+  cursor: pointer;
 }
