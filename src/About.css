@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.MAIN {
+  margin: 0px 57px 0px 110px;
+  padding-top: 80px;
+  text-align: start;
+}
+
+.MAINPARA {
+  text-transform: uppercase;
+  font-size: x-small;
+  letter-spacing: 2px;
+  color: #377b48;
+}
+.MAINHEADING {
+  font-size: 73px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.MAINHEADING em {
+  color: #3ea959;
+  font-family: Georgia, serif;
+}
+.MAINPARAGRAPH {
+  color: #607169;
+}
+.MAINBTN {
+  padding: 10px;
+  margin: 25px 0px;
+  font-family: serif;
+  transition: transform 0.3s ease-in-out;
+}
+.MAINBTN:hover {
+  transform: scale(1.05);
+}
+.MAINBOX2 {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.ASIDEBOX {
+  width: 600px;
+  background-color: #103828;
+  border-radius: 20px;
+  transform: rotate(1.05deg);
+  padding: 25px;
+}
+.ASIDETOP {
+  display: flex;
+  color: #a6cfaa;
+  justify-content: space-between;
+  font-size: smaller;
+}
+.ASIDETOP b {
+  color: #3ea959;
+}
+
+.ASIDETITLE {
+  color: white;
+  width: 440px;
+  margin-top: 25px;
+  font-family: Syne, sans-serif;
+}
+.REGESTRATIONBOX {
+  color: white;
+  font-family: Syne, sans-serif;
+  border: 1px solid #38654e;
+  padding: 10px;
+  border-radius: 10px;
+  background: #204b3a;
+  margin: 26px 0px 13px;
+  font-size: small;
+  transition: transform 0.3s linear;
+}
+.REGESTRATIONBOX:hover {
+  transform: translateX(10px);
+}
+.HEADQUARTERSBOX {
+  color: white;
+  font-family: Syne, sans-serif;
+  border: 1px solid #38654e;
+  padding: 10px;
+  border-radius: 10px;
+  background: #204b3a;
+  font-size: small;
+  transition: transform 0.3s linear;
+}
+.HEADQUARTERSBOX:hover {
+  transform: translateX(10px);
+}
+.REGESTRATIONBOX small {
+  font-size: xx-small;
+  color: #9bc9a1;
+  display: block;
+}
+
+.HEADQUARTERSBOX small {
+  font-size: xx-small;
+  color: #9bc9a1;
+  display: block;
+}
+.ASIDEBOTTOM {
+  color: #a9d4ab;
+  font-family: sans-serif;
+  font-size: smaller;
+}
+.BOTTOMBOX {
+  padding: 10px 63px;
+  border: 1px solid #49735b;
+  margin-top: 15px;
+  border-radius: 5px;
+}
