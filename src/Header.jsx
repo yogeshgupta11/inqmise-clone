@@ -16,9 +16,13 @@ function Header() {
           <Link className="NAV-LINK" to="/about">
             About
           </Link>
-          <li className="NAV-LINK">AI Solutions</li>
+          <Link className="NAV-LINK" to="/Aisolution">
+            AI Solutions
+          </Link>
           <li className="NAV-LINK">Product </li>
-          <li className="NAV-LINK">Services </li>
+          <Link className="NAV-LINK" to="/Service">
+            Services
+          </Link>
           <li className="NAV-LINK">Case studies</li>
           <li className="NAV-LINK">Resources</li>
         </ul>
