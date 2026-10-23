@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 
 function Header() {
@@ -12,7 +13,9 @@ function Header() {
           />
         </div>
         <ul className="ULLIST d-flex gap-12 ">
-          <li className="NAV-LINK">About</li>
+          <Link className="NAV-LINK" to="/about">
+            About
+          </Link>
           <li className="NAV-LINK">AI Solutions</li>
           <li className="NAV-LINK">Product </li>
           <li className="NAV-LINK">Services </li>
