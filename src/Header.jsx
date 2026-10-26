@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import "./header.css";
+import { useState } from "react";
+import Popup from "./popup.jsx";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="header-yg">
       <nav className="NAV d-flex justify-content-between align-items-center">
@@ -26,8 +30,14 @@ function Header() {
           <li className="NAV-LINK">Case studies</li>
           <li className="NAV-LINK">Resources</li>
         </ul>
-        <button className="BUTTON btn-solid theme-inverse">Contact Us</button>
+        <button
+          onClick={() => setIsOpen(true)}
+          className="BUTTON btn-solid theme-inverse  "
+        >
+          Contact Us
+        </button>
       </nav>
+      {isOpen && <Popup />}
     </header>
   );
 }
