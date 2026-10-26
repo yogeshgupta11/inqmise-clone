@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.POPUP {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  height: 550px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: solid rgb(209, 209, 202) 1px;
+  border-radius: 10px;
+  text-align: start;
+  padding: 20px;
+}
+
+.POPUPBOX label {
+  display: block;
+  margin-top: 30px;
+}
+
+.GRID {
+  width: 100%;
+  margin-top: 10px;
+  border: solid rgb(209, 209, 202) 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.POPUPBTN {
+  padding: 10px 20px;
+  margin: 0px 60px 0px 0px;
+  font-family: serif;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 67px;
+}
+
+.POPUPBTN:hover {
+  transform: scale(1.05);
+}
